@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+}
+
+.scoreboard {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.scoreboard > div {
+    flex-basis: 30%;
+    background-color: darkred;
+    border: 4px solid black;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 200%;
+    color: grey;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+.flex-item {
+    flex-basis: 15%;
+    height: 30vh;
+    border: 4px solid black;
+}
+
+@media(orientation: portrait)  {
+    .flex-item {
+        flex-basis:  30%;
+        height: 15vh;
+    }
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.brown {
+    background-color: brown;
+}
+.gray {
+    background-color: orange;
+}
+.lightgreen {
+    background-color: lightgreen;
+}
+.cadetblue {
+    background-color: cadetblue;
+}
+.violet {
+    background-color: violet;
+}
+
+.off {
+    background-color: black;
+}
+.hidden {
+    background-color: darkred;
+}
